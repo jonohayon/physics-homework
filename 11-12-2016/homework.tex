@@ -1,0 +1,46 @@
+\documentclass[12pt, oneside]{article}
+\usepackage{geometry}
+\geometry{letterpaper}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+% Initializing graphicx
+\usepackage{graphicx}
+\graphicspath{{assets/}}
+
+% Custom Commands
+\newcommand{\img}[1] {
+	\includegraphics[scale=0.33]{#1}
+}
+
+\title{Physics Homework}
+\author{Jonathan Ohayon}
+% No date ayy
+
+\begin{document}
+\maketitle
+
+\section{}
+\subsection{a}
+\begin{eqnarray*}
+& E_h = mgh = 500 * 10 * 15 = 75,000_J\\
+& \dfrac{75,000_J}{20_{kW}} = \framebox{$3.75_S$}
+\end{eqnarray*}
+
+\subsection{b}
+\begin{eqnarray*}
+& E_h = mgh = 740 * 10 * h\;/\;:7400\\
+& h = \dfrac{E_h}{7400}\\
+& E_{kW} = 20,000_J\\
+& h = \dfrac{E_{kW}}{7400} = \dfrac{20,000}{7400}\;\framebox{$\approx 2.7_m$}
+\end{eqnarray*}
+
+\section{}
+\begin{eqnarray*}
+& E_k = \dfrac{mv^2}{2} = \dfrac{65 * 108^2}{2} = \dfrac{65 * 11,664}{2} = 379,080_J\\
+& E_{kW} = P * T\\
+& T = \dfrac{E_{kW}}{P} =\dfrac{379,080_J}{250}\;\framebox{$\approx 1,516_{kWs}$}
+\end{eqnarray*}
+
+\end{document}

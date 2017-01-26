@@ -1,0 +1,57 @@
+\documentclass[12pt, oneside]{article}
+\usepackage{geometry}
+\geometry{letterpaper}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{cancel}
+
+% Initializing graphicx
+\usepackage{graphicx}
+\graphicspath{{assets/}}
+
+% Custom Commands
+\newcommand{\img}[1] {
+	\includegraphics[scale=0.33]{#1}
+}
+
+\title{Homework}
+\author{Jonathan Ohayon}
+% No date cuz I'm living on the 3dge
+
+\begin{document}
+\maketitle
+
+\section{Question 1}
+\setcounter{subsection}{-1}
+\subsection{Definitions}
+\begin{eqnarray*}
+& T_{p} = 25^{\circ}C\\
+& T_{w} = 100^{\circ}C\\
+& \framebox{$\Delta T = T_{w} - T_{p} = 75^{\circ}C$}\\
+& m_{p} = 0.7kg\\
+& m_{w} = 2kg\\
+& \framebox{$m_{tot} = m_{p} + m_{w} = 2.7kg$}\\
+\end{eqnarray*}
+
+\subsection{A}
+\begin{eqnarray*}
+& E_{H,p} = 0.7 * 910 * (25 + T) = 637(25 + T) = 15,925 + 637T\\
+& E_{H,w} = 2 * 4200 * (100 - T) = 8400(100 - T) = 840,000 - 8400T\\
+& 15,925 + 637T = 840,000 - 8400T\\
+& 9037T = 824,075\\
+& \framebox{$T \approx 91.2$}
+\end{eqnarray*}
+\clearpage
+
+\subsection{B}
+\begin{eqnarray*}
+& T_{w,now} = 91.2\\
+& T_{w,fin} = 100\\
+& \Delta T = T_{w,fin} - T_{w,now} = 8.8\\
+& C = 2257\\
+& E_{H,need} = 2 * C * \Delta T = 2 * 2257 * 8.8\\
+& \framebox{$E_{H,need} = 39,723.2J$}
+\end{eqnarray*}
+
+\end{document}
